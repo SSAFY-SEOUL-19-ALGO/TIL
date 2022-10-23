@@ -4,6 +4,9 @@
 name: TIL scraper
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '*/20 * * * *'
 
