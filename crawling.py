@@ -6,6 +6,7 @@ import sys
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+# 사용자 이름, til url
 til = {
     "sanwon": "https://github.com/nowgnas/TIL",
     "yejin": "https://github.com/yejin013/TIL",
