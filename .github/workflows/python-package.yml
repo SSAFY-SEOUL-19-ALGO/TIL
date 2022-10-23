@@ -36,7 +36,7 @@ jobs:
         git add .
         git commit -m "Auto - Update TIL date with scraper" # 커밋 메세지
     - name: push 
-      uses: ad-m/github-push-action@main
+      uses: ad-m/github-push-action@master
       with:
         branch: 'main'
         github_token: ${{secrets.GITHUB_TOKEN}}
