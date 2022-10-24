@@ -24,7 +24,7 @@ til = {
 }
 print('github repo crawling')
 data = {}
-driver = webdriver.Chrome(executable_path='/chromedriver')
+driver = webdriver.Safari()
 for name, url in til.items():
 
     driver.get(url)
