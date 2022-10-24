@@ -3,6 +3,10 @@ from bs4 import BeautifulSoup
 import json
 import os
 import sys
+from datetime import datetime
+now = datetime.now()
+
+updateTime = now.strftime('%Y-%m-%d %H:%M:%S')
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -34,6 +38,7 @@ for name, url in til.items():
 
 with open(os.path.join(BASE_DIR, 'readme.md'), 'w+', encoding='utf-8') as f:
     f.write("# Today I Learn \n")
+    f.write(f'TIL list updated at {updateTime}\n')
     f.write('| name | url | updated time |\n')
     f.write('| :--- | -- | -- |\n')
 
