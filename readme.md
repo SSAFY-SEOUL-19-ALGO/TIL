@@ -1,5 +1,5 @@
 # Today I Learn 
-TIL list updated at 2022-10-24 20:09:10
+TIL list updated at 2022-10-24 20:59:05
 | name | url | updated time |
 | :--- | -- | -- |
 | sanwon | https://github.com/nowgnas/TIL | Oct 23, 2022, |
