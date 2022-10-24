@@ -4,7 +4,10 @@ import json
 import os
 import sys
 from datetime import datetime
+from selenium import webdriver
+
 now = datetime.now()
+
 
 updateTime = now.strftime('%Y-%m-%d %H:%M:%S')
 
@@ -21,11 +24,11 @@ til = {
 }
 print('github repo crawling')
 data = {}
-
+driver = webdriver.Safari()
 for name, url in til.items():
-    req = requests.get(url)
-    req.encoding = None
-    html = req.content
+
+    driver.get(url)
+    html = driver.page_source
     soup = BeautifulSoup(html, 'html.parser')
     datas = soup.select(
         '#repo-content-pjax-container > div > div > div.Layout > div.Layout-main > div.Box > div.Box-header> div > div.flex-1 > div.d-flex > a.ml-2 > relative-time'
@@ -33,7 +36,7 @@ for name, url in til.items():
 
     for title in datas:
         print(title.text)
-        data[name] = title.text
+        data[name] = title.get('title')[:13]
 
 
 with open(os.path.join(BASE_DIR, 'readme.md'), 'w+', encoding='utf-8') as f:
