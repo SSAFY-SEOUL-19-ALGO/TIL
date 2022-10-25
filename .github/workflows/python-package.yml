@@ -31,7 +31,7 @@ jobs:
         python "crawling.py"
     - name: commits
       run: |
-        git config --local user.email "lee@gmail.com"
+        git config --local user.email ""
         git config --local user.name "crawler" # 커밋에 포함될 이름
         git add .
         git commit -m "Auto - Update TIL date with scraper" # 커밋 메세지
