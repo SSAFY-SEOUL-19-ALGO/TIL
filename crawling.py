@@ -19,7 +19,7 @@ til = {
     "yejin": "https://github.com/yejin013/TIL",
     "junmo": "https://github.com/devjunmo/TIL",
     "sooji": "https://github.com/KangSuzy/TIL",
-    "jino": "https://github.com/wlsgh7608/TIL",
+    "jino": "https://github.com/wlsgh7608/JinoWiki",
 
 }
 print('github repo crawling')
