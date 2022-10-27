@@ -9,7 +9,7 @@ from selenium import webdriver
 now = datetime.now()
 
 
-updateTime = now.strftime('%Y-%m-%d %H:%M:%S')
+updateTime = now.strftime('%Y-%m-%d %H:%M:%S %z')
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
