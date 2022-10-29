@@ -1,5 +1,5 @@
 # Today I Learn 
-TIL list updated at 2022-10-29 03:03:16
+TIL list updated at 2022-10-29 11:17:21
 | name | url | updated time |
 | :--- | -- | -- |
-| jino | https://github.com/wlsgh7608/JinoWiki | Oct 28, 2022, |
+| sooji | https://github.com/KangSuzy/TIL | Oct 20, 2022, |
