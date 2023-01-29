@@ -1,5 +1,4 @@
 # Today I Learn 
-TIL list updated at 2023-01-28 02:16:04
+TIL list updated at 2023-01-29 02:18:42
 | name | url | updated time |
 | :--- | -- | -- |
-| yejin | https://github.com/yejin013/TIL | Nov 29, 2022, |
