@@ -1,5 +1,4 @@
 # Today I Learn 
-TIL list updated at 2023-02-23 02:18:01
+TIL list updated at 2023-02-24 02:18:10
 | name | url | updated time |
 | :--- | -- | -- |
-| junmo | https://github.com/devjunmo/TIL | Jan 11, 2023, |
