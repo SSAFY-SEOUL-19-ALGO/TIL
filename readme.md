@@ -1,4 +1,4 @@
 # Today I Learn 
-TIL list updated at 2023-08-22 01:42:33
+TIL list updated at 2023-08-23 01:41:29
 | name | url | updated time |
 | :--- | -- | -- |
