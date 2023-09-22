@@ -1,5 +1,4 @@
 # Today I Learn 
-TIL list updated at 2023-09-21 01:43:27
+TIL list updated at 2023-09-22 01:44:31
 | name | url | updated time |
 | :--- | -- | -- |
-| jino | https://github.com/wlsgh7608/JinoWiki | Mar 13, 2023, |
